@@ -1,0 +1,63 @@
+
+
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Roboto Mono', monospace; /* this should be the rest of the output you got from Google fonts */
+  background-color: #000000;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #CB5B2B;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+	font-size: 30px;
+	text-shadow: 3px 3px 1px black;
+}
+
+p {
+	color: white;
+	font-size: 18px;    
+	line-height: 2;
+	letter-spacing: 1px;
+	text-shadow: 3px 3px 1px black;
+}
+
+/* using hover makes the color (or whatever is spesified below) of the text change when the mouse is over it */
+li {
+	font-size: 16px;    
+	line-height: 2;
+ 	letter-spacing: 1px;
+}
+
+li:hover {
+	color: white;
+	text-shadow: 3px 3px 1px #223DA9;
+}
+
+a {
+	font-size: 16px;    
+	line-height: 2;
+ 	letter-spacing: 1px;
+ 	color: #223DA9;
+}
+
+a:hover {
+	color: white;
+	font-size: 17px;
+}
+
+
+
